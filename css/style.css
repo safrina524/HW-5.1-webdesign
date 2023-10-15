@@ -1,0 +1,91 @@
+
+span {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  line-height: 15px;
+  font-weight: bold;
+  font-size: 15px;
+ }
+
+div .items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div .item {
+  display: inline-block;
+  line-height: 15px;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  padding: 20px 9px 30px 9px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 5px;
+  width: 180px;
+  height: 85px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.item:hover {
+  box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.5);
+}
+
+.wall {
+  background-color: #e9eaee;
+  width: fit-content;
+}
+
+
+.main .item a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.main .item a:hover{
+  color: rgb(224, 49, 0);
+}
+
+
+.pc .comp a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  display: inline-block;
+  
+}
+
+.pc .comp a:hover {
+  text-decoration: underline;
+  color: rgb(224, 49, 0);
+}
+
+.pc .comp {
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-block;
+  background-color: white;
+  padding: 16px 9px 16px 9px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 3px 3px 5px rgba(201, 201, 201, 0.5);
+}
+
+ .pc .comp p { 
+  font-size: 20px;
+  color: rgb(224, 49, 0);
+}
+
+.pc .comp:hover{
+  box-shadow: 3px 3px 5px rgba(201, 201, 201, 0.5);
+  opacity: 0.88;
+}
